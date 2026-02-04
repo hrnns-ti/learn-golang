@@ -1,5 +1,6 @@
 # Go — Variables
-___
+
+---
 
 ## Variables
 
@@ -22,7 +23,7 @@ ___
     - `var name1, name2, name3 = "A", "B", "C"`
     - `var x, y, z int = 1, 2, 3`
 
-___
+---
 
 ## Constants
 
