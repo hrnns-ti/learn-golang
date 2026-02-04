@@ -11,9 +11,11 @@ PROJECT STRUCTURE
 golang/
 ├─ notes/ 
 │  └─ Data Type.md
+│  └─ Variable.md
 ├─ go.mod
 ├─ hello.go
 ├─ data_type.go
+├─ variable.go
 └─ README.md
 ```
 ------------------------------------------------------------
