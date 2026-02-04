@@ -33,10 +33,10 @@ notes/Data Type.md
 ------------------------------------------------------------
 MODULE INDEX (CODE + NOTES)
 ------------------------------------------------------------
-| No | Topic        | Code File       | Notes File               |
-|----|--------------|-----------------|--------------------------|
-| 01 | Hello World  | hello.go        | -                        |
-| 02 | Data Types   | data_type.go    | notes/Data Type.md       |
+| No | Topic        | Code File       | Notes File                          |
+|----|--------------|-----------------|-------------------------------------|
+| 01 | Hello World  | hello.go        | -                                   |
+| 02 | Data Types   | data_type.go    | [DATA TYPES](/notes/Data%20Type.md) |
 
 
 ------------------------------------------------------------
