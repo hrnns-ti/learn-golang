@@ -1,7 +1,7 @@
-# Go (Golang) — Basic Branch (Simple Modules)
+# Go Basic Modules
 
-This branch is intentionally SIMPLE:
-- Each topic has ONE standalone Go file (runnable).
+This branch is intentionally basic material:
+- Each topic has one standalone Go file (runnable).
 - All notes are collected inside the `notes/` folder.
 
 ------------------------------------------------------------
@@ -21,15 +21,10 @@ HOW TO RUN
 ------------------------------------------------------------
 Run any module directly:
 
+```
 go run hello.go
 go run data_type.go
-
-Notes are readable in:
-
-notes/Data Type.md
-
-(If your note filename contains spaces, GitHub links may appear as Data%20Type.md.)
-
+```
 ------------------------------------------------------------
 MODULE INDEX (CODE + NOTES)
 ------------------------------------------------------------
