@@ -41,4 +41,34 @@ func main() {
 	type num int
 	var num1 num = 64
 	fmt.Println(num1)
+
+	//ARRAY
+	var name [2]string
+	name[0] = "Alice"
+	name[1] = "Bob"
+	fmt.Println(name[0], name[1])
+	fmt.Println(name)
+
+	var values = [3]int{
+		1,
+		2,
+		3,
+	}
+	fmt.Println(values)
+
+	longName := len(name) //LENGTH AN ARRAY
+	nValues := values[0]  // DATA IN ARRAY INDEX N
+	values[1] = 100       // CHANGE A DATA IN INDEX N
+
+	fmt.Println(longName)
+	fmt.Println(nValues)
+	fmt.Println(values)
+
+	//SLICE
+	moon := [...]string{"Jan", "Feb", "Mar", "Apr", "May", "Jun"}
+	slice := moon[2:5]
+	fmt.Println(slice[0])
+	fmt.Println(slice[1])
+	fmt.Println(slice)
+	fmt.Println(moon)
 }

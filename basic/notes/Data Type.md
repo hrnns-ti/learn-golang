@@ -55,3 +55,40 @@ Notes:
 - Example:
     - `type num int64`
     - `var number num = 64`
+
+---
+
+### Array
+
+#### Many data with same type stored on 1 variable. Using index start from 0 
+- Syntax: `var names [n]type || var names =[n]type{data} || var names := [...]types{data}`
+- Notes: `n is length of array, not index`
+- Example:
+  - `var nama [2]string; nama[0] = "Abi"; nama[1] = "Manyu"; nama[2] = "James"`
+  - `var values = [2]int{1,2}`
+  - `var time := [...] string{1,2,3...}`
+- Function:
+  - `longName := len(name)` Length an array
+  - `nValues := values[0]`  Data in array index n
+  - `values[1] = 100`       Change a data in index n
+---
+
+### Slice
+
+#### Dynamic total of data
+- Syntax: 
+  - `array[low:high];`  make a slice start index from low to high
+  - `array[low:];`    make a slice start index from low to last
+  - `array[:high];` make a slice start index from 0 to before high
+  - `array[:]` make a slice start index from 0 to last
+- Example:
+  - `type num int64`
+  - `var number num = 64`
+- Function:
+  - `len(slice)` Length a slice
+  - `cap(slice)` Capacity of a slice
+  - `append(slice, data)` Make a new slice with adding data to last position slice(if full, make a new array)
+  - `make([]types, length, capacity)` Make a new slice
+  - `copy(destination, source)` Copying slice from source to destination
+
+![Slice and Array.png](slicearray.png)
